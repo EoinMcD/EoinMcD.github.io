@@ -64,6 +64,20 @@ button{
 #wrapper {
     text-align: center;
 }
+
+footer{
+    font-family: 'Pacifico', cursive;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #03bcd8;
+    color: black;
+    text-align: center;
+    /* font-size: 0.9vw; */
+    padding: 0.2vw;
+}
+
 #div1 {
     display: inline-block;
     width:auto;
