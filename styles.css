@@ -8,8 +8,9 @@ body, html{
 }
 
 body{
-    background-color: aqua;
-    background-color: rgb(0, 255, 208);
+    background-image: url("./assets/Loading_Screen_Breeze.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #title{
@@ -48,4 +49,37 @@ body{
     font-size: 20px;
     width:auto;
     height:auto;
+}
+
+.container div{
+    all:unset;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    /* margin-left: 2em; */
+    position: relative;
+    text-align: center;
+}
+
+.container p{
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 800;
+}
+.container > div {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.agent{
+    border: 2px solid transparent;
+    width: 8rem;
+    margin: 1px;
+}
+
+.agent:hover{
+    background: #2ea1fb;
+    /* border: 2px dashed black; */
 }
